@@ -1,0 +1,462 @@
+body
+    margin: 0
+    padding: 0
+    font-family: 'Open Sans', sans-serif
+    background-color: #f8f8f8
+.container
+    position: fixed
+    width: 100%
+    top: 0
+    z-index: 200
+    margin-bottom: 50px
+    background-color: #fff
+    
+.wrapper
+    width: 1200px
+    margin: 20px auto
+.top-header
+    display: grid
+    grid-template-columns: 200px 2fr 150px
+    justify-items: center
+    align-items: center
+
+    .logo img
+        width: 160px
+        height: 70px
+
+    .menu-header a
+        text-decoration: none
+        padding: 10px 20px
+        left: 10px
+        font-size: 17px
+        color: #000
+        font-weight: 900
+
+    .menu-header a:hover
+        color: #ff3e80
+
+    .sign-header
+
+        .btn-sign
+            width: 150px
+            padding: 14px
+            color: #fff
+            border: none
+            outline: none
+            background-color: #3a88ec
+            border-radius: 50px
+            font-weight: 900
+            font-size: 16px
+            cursor: pointer
+        .btn-sign:hover
+            background: #ff3e80
+
+.info-header
+    margin-top: 200px
+    display: grid
+    grid-template-columns: 1fr 1fr
+    justify-items: center
+    align-items: center
+
+    .header-info-block
+
+        h2
+            font-size: 25px
+            line-height: 1
+        h1
+            font-size: 60px
+            line-height: 1
+            font-weight: bolder
+            color: #303669
+        p
+            width: 350px
+            font-size: 16px
+            color: #919191
+
+        a
+            margin-top: 20px
+            width: 150px
+            display: block
+            padding: 14px
+            text-align: center
+            color: #fff
+            border: none
+            outline: none
+            background-color: #3a88ec
+            border-radius: 50px
+            font-weight: 900
+            font-size: 16px
+            cursor: pointer
+            text-decoration: none
+        a:hover
+            background: #ff3e80
+
+    .img-header img
+        height: 516px
+
+.section-strategiy
+    margin-top: 100px
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+
+    .strategiy-elements
+        display: grid
+        justify-items: center
+        align-items: center
+
+    img
+        width: 90px
+    h3
+        font-size: 22px
+        line-height: 0
+
+    p
+        width: 250px
+        text-align: center
+        font-size: 16px
+
+.section-services
+    margin: 75px 0
+    display: grid
+    grid-template-columns: 1fr 1fr
+    justify-items: center
+
+    .services-block-info
+
+        width: 500px
+
+        h4
+            font-size: 20px
+
+        h2
+            font-size: 45px
+            line-height: 2px
+            word-spacing: 20px
+            color: #303669
+        p
+            font-size: 18px
+            width: 80%
+
+        div
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 400px
+            padding: 20px 20px
+            background-color: #3a88ec
+            margin-top: 20px
+            border-radius: 50px
+            font-size: 18px
+            font-weight: 900
+            color: #fff
+            cursor: pointer
+            span
+                font-size: 18px
+
+        .web-block,.dev-block
+            height: 0
+            overflow: hidden
+            transition: all 0.3s
+            font-size: 16px
+            margin-left: 20px
+        .web-block-show
+            height: 70px
+            overflow: none
+            transition: all 0.3s
+    .services-block-img
+        width: 520px
+        height: 395px
+
+        img
+            width: 100%
+            height: 100%
+
+.section-sales
+    display: grid
+    grid-template-columns: 1fr 1fr
+    justify-items: center
+    align-items: center
+    margin: 70px 0
+
+    .img-sales img
+        width: 540px
+        height: 450px
+
+    .info-sales
+        h3
+            font-size: 20px
+
+        h2
+            font-size: 45px
+            line-height: 2px
+            word-spacing: 20px
+            color: #303669
+        p
+            font-size: 18px
+            width: 80%
+
+        a
+            text-decoration: none
+            display: block
+            width: 150px
+            border-radius: 50px
+            padding: 15px
+            background-color: #ff3e81
+            text-align: center
+            color: #ffffff
+            font-weight: 900
+            font-size: 17px
+
+.section-pricing
+
+    .pricing-wrapper
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+
+    h1
+        font-size: 55px
+        text-align: center
+        color: #303669
+        font-weight: 900
+        line-height: 35px
+
+    p
+        text-align: center
+        font-size: 18px
+        color: #868686
+
+    .basic
+        margin-top: 100px
+        width: 340px
+        height: 490px
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        border-radius: 40px
+        background-color: #fff
+
+        h2
+            font-size: 55px
+            line-height: 2px
+            word-spacing: 20px
+            font-weight: bold
+            color: #303669
+
+        span
+            font-size: 18px
+            color: #037ee4
+            font-weight: 900
+        p
+            font-size: 20px
+            width: 80%
+
+        ul li
+            font-size: 16px
+            padding: 5px
+            list-style-image: url('../img/icons/remove.png')
+
+        .checked
+            list-style-image: url('../img/icons/insurance.png')
+        a
+            text-decoration: none
+            display: block
+            width: 150px
+            border-radius: 50px
+            padding: 15px
+            background-color: #037ee4
+            text-align: center
+            color: #ffffff
+            font-weight: 900
+            font-size: 17px
+
+    .growth
+        height: 550px
+        transform: translateY(-35px)
+        border: 7px dashed #037ee4
+        .popular
+            width: 100px
+            font-size: 15px
+            color: #ffffff
+            font-weight: 900
+            border-radius: 50px
+            padding: 10px
+            background: #037ee4
+
+    .basic:hover
+        box-shadow: 0 0 50px 10px #00000048
+
+.section-clients
+    margin: 70px 0
+    h3
+        text-align: center
+        font-size: 18px
+        color: #868686
+    h2
+        font-size: 55px
+        text-align: center
+        color: #303669
+        font-weight: 900
+        line-height: 35px
+
+    .slider
+        width: 890px
+        margin: 10px auto
+        overflow: hidden
+
+        .polosa
+
+            display: flex
+            justify-content: center
+            align-items: center
+
+            position: relative
+            transition: 0.5s all
+
+        img
+            margin-left: 10px
+            height: 100px
+            padding: 5px 20px
+            position: relative
+
+.section-stroies
+
+    h3
+        text-align: center
+        font-size: 22px
+    h2
+        font-size: 45px
+        text-align: center
+        color: #303669
+        font-weight: 900
+        line-height: 35px
+    
+    .stroies-blocks
+        margin: 90px 0
+        display: grid
+        grid-template-columns:  1fr 1fr 1fr
+
+
+        .stroies-element
+            width: 330px
+            height: 510px
+            background-color: #fff
+            border-radius: 50px
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+
+            h4
+                font-size: 20px
+                color: #303669
+
+            p
+                text-align: center
+                width: 230px
+                margin-top: 0
+
+            a
+                text-decoration: none
+                margin-top: 12px
+                font-size: 20px
+                font-weight: 900
+                color: #357baad5
+            a:hover
+                color: #ff3e81
+            span
+                font-size: 18px
+                padding: 5px
+                margin-top: 0
+                color: #afafaf
+            .btn-read
+                border-radius: 50px
+                padding: 15px 30px
+                background-color: #3a88ec
+                color: #fff
+            .btn-read:hover
+                background-color: #ff3e81
+                color: #fff
+            
+        .center-element
+            height: 580px
+            transform: translateY(-50px)    
+        
+        .stroies-element:hover
+            box-shadow: 0 0 50px 10px #00000048
+
+
+
+.section-contact
+    display: grid
+    grid-template-columns: 1fr 1fr
+    justify-items: center
+    align-items: center
+
+
+    .contact-info
+        h3
+            font-size: 22px
+
+        h2
+            font-size: 45px
+            color: #303669
+            font-weight: 900
+            margin-top: 10px
+        
+        p
+            font-size: 18px
+
+        a
+            padding: 10px 40px
+            text-align: center
+            color: #fff
+            background-color:#ff3e81
+            font-size: 17px
+            text-decoration: none
+            display: block
+            border-radius: 50px
+            margin-top: 50px
+
+.footer
+    height: 400px
+    background-color: #303669
+    text-align: center
+    display: grid
+    justify-items: center
+    align-items: center
+    color: #fff
+
+    p
+        font-size: 18px
+
+    .footer-blocks
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        justify-items: center
+        align-items: center
+        grid-auto-rows: minmax(210px, auto)
+        color: #fff
+
+        div
+            width: 213px
+            height: 231px
+            p
+                font-size: 18px
+        .logo-footer
+            text-align: left
+            img
+                width: 120px 
+        
+
+        .footer-social
+
+            a
+
+                img
+                    width: 30px
+                    height: 30px
+                    padding: 10px 5px
+        
+
+            
